@@ -5,11 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "kindle-drm"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Amazon Kindle .azw file manipulation library.}
+    gem.description = %Q{A Ruby library for performing DRM-related operations on .mobi files, know as DRM'd .azw files on the Amazon Kindle.}
     gem.email = "conmotto@gmail.com"
     gem.homepage = "http://github.com/preston/kindle-drm"
-    gem.authors = ["Preston Lee"]
+    gem.authors = ["Preston Lee", "Igor Skochinsky"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
