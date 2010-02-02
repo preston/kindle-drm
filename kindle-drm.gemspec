@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "bin/serial_to_pid.rb",
+     "kindle-drm.gemspec",
      "lib/kindle-drm.rb",
      "lib/kindle/drm.rb",
      "test/helper.rb",

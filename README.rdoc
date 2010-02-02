@@ -2,9 +2,9 @@
 
 This code can calculate the PID (Personal ID) number of a Kindle eBook reader device based on it's serial number. To determine the serial number of your Kindle:
 
-# Navigate to the device's "Settitngs" screen.
-# Type "411" (without the quotes) on the keyboard.
-# A secret page should now open. Write down the 16-character serial number of the device. (iPhone serial numbers are different but should also work.)
+1. Navigate to the device's "Settitngs" screen.
+1. Type "411" (without the quotes) on the keyboard.
+1. A secret page should now open. Write down the 16-character serial number of the device. (iPhone serial numbers are different but should also work.)
 
 
 == Note on Patches/Pull Requests
