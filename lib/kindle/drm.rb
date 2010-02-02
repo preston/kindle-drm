@@ -30,7 +30,7 @@ module Kindle
 
 		# Figures out the intermediary Personal ID (PID) of a device based on its
 		# serial number and expected length of the output. Apparently this
-		# various by the type of device.
+		# varies by the type of device.
 		def serialToIntermediaryPid(s, l)
 			crc = crc32(s)  
 			arr1 = Array.new(l, 0)
