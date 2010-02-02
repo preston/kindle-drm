@@ -35,7 +35,9 @@ module Kindle
 			crc = crc32(s)  
 			arr1 = Array.new(l, 0)
 			for i in 0..(s.length - 1) do
-				arr1[i%l] ^= s[i]
+				code = s[i]
+				code = code.ord if code.class == String # Fix for Ruby 1.9+
+				arr1[i%l] ^= code
 			end
 
 			# Grab each CRC byte and OR with a portion of the 
