@@ -1,6 +1,11 @@
 = kindle-drm
 
-Description goes here.
+This code can calculate the PID (Personal ID) number of a Kindle eBook reader device based on it's serial number. To determine the serial number of your Kindle:
+
+# Navigate to the device's "Settitngs" screen.
+# Type "411" (without the quotes) on the keyboard.
+# A secret page should now open. Write down the 16-character serial number of the device. (iPhone serial numbers are different but should also work.)
+
 
 == Note on Patches/Pull Requests
  
@@ -11,6 +16,10 @@ Description goes here.
 * Commit, do not mess with rakefile, version, or history.
   (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
+
+= History
+
+This code was originally ported Mobipocket PID calculator v0.2 by Igor Skochinsky. I have added support for Kindle 2 and Kindle DX (serial numbers starting with B003 and B004) in addition to the port.
 
 == Copyright
 
