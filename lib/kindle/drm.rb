@@ -65,12 +65,16 @@ module Kindle
 				case serial[0, 4]
 				when "B001"
 					type = "Kindle 1"
+				when "B101"
+					type = "Kindle 1"
 				when "B002"
 					type = "Kindle 2"
 				when "B003"
 					type = "Kindle 2 International"
 				when "B004"
 					type = "Kindle DX"
+				when "B005"
+					type = "Kindle DX 2"
 				end
 				size = 7
 				pad = '*'
