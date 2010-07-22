@@ -75,7 +75,9 @@ module Kindle
 					type = "Kindle DX"
 				when /^B005/
 					type = "Kindle DX 2"
-				when /^B00/
+				when /^B009/
+					type = "Kindle DX International 2 (Graphite)"
+				when /^B/
 					type = "Unknown Kindle model. Please report!"
 				end
 				size = 7
